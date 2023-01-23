@@ -1,0 +1,61 @@
+body {
+  background-image: url("images (2).jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav .closeBtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 35px;
+  margin-left: 50px;
+}
+.home {
+  font-family: 'Roboto Mono', monospace;
+}
+.server-information {
+  font-family: 'Roboto Mono', monospace;
+}
+.donation {
+  font-family: 'Roboto Mono', monospace;
+}
+.download {
+  font-family: 'Roboto Mono', monospace;
+}
+.dl {
+  font-size: 100px;
+  margin-left: 70px;
+}
+.mobile-download {
+  text-align: center;
+}
+.how-to-download {
+  text-align: center;
+}
+.pc-download {
+  text-align: center;
+}

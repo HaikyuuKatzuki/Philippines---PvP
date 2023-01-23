@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+
+body {
+    background-image: url("images (2).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.name {
+  font-size: 100px;
+  margin-left: 200px;
+  position: absolute;
+  top: 10px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav .closeBtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 35px;
+  margin-left: 50px;
+}
+.home {
+  font-family: 'Roboto Mono', monospace;
+}
+.server-information {
+  font-family: 'Roboto Mono', monospace;
+}
+.donation {
+  font-family: 'Roboto Mono', monospace;
+}
+.download {
+  font-family: 'Roboto Mono', monospace;
+}
+.header {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  margin-left: 10px;
+  margin-top: 200px;
+}
+.owner {
+  font-family: sans-serif;
+  color: blue;
+}
+.server-developer {
+  font-family: sans-serif;
+  color: blue;
+}
+.administrator {
+  font-family: sans-serif;
+  color: blue;
+}
+.web-designer {
+  font-family: sans-serif;
+  color: blue;
+}
+.follow-us {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  margin-top: 400px;
+  margin-left: 250px;
+  position: absolute;
+}
+.discord {
+  height: 50px;
+  margin-top: 500px;
+  margin-left: 350px;
+}
+@media screen and (max-height:450px) {
+  .sidenav {padding-top:15px;}
+  .sidenav a {font-size:18px;} 
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url("images (2).jpeg");
+    background-size: cover;
+    background-repeat: no repeat;
+    height: 1800px;
+  }
